@@ -36,7 +36,7 @@ const NavBar = () => {
         </div>
 
         {/* Mobile Menu Toggle Button */}
-        <div className="md:hidden z-50">
+        <div className="md:hidden h-[28px] my-auto z-50">
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="focus:outline-none"
