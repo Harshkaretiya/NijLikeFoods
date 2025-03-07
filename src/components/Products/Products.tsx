@@ -4,7 +4,7 @@ import { ProductType } from "./Products.types";
 const Products = () => {
   const data: ProductType[] = [
     {
-      image: "/public/product1.png",
+      image: "./product1.png",
       title: "Khajur Chutney",
       description:
         "Water, Dates, Sugar,Dry Garlic, Cor Flour, Ginger, Tamarind,Red Chilli Powder, Dry Coriander Powder,Cumin Powder, Fennel, Acidity Regulator(E-260), Stabilizing Agent (E1422 & 415)Mixed Spices, Salt, Preservative (E-211).",
@@ -31,9 +31,10 @@ const Products = () => {
     >
       <div className="font-normal text-3xl sm:text-4xl m-5">Products</div>
       <div className="flex gap-8 w-full ">
-        {data.map((item) => {
+        {data.map((item, index) => {
           return (
             <ProductView
+              key={index}
               image={item.image}
               title={item.title}
               availableSize={item.availableSize}

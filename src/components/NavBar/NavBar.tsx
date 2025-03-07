@@ -17,7 +17,7 @@ const NavBar = () => {
       <div className="fixed top-5 left-1/2 transform -translate-x-1/2 w-full max-w-[calc(100%-40px)] lg:max-w-[1000px] bg-white shadow-xl border-2 border-gray-300 rounded-4xl p-3 px-6 flex justify-between items-center z-50">
         {/* Logo */}
         <div>
-          <img src="/public/logo.png" className="h-10 w-10" alt="Logo" />
+          <img src="./logo.png" className="h-10 w-10" alt="Logo" />
         </div>
 
         {/* Desktop Navigation */}
