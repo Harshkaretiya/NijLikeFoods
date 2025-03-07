@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+:root {
+  --brand-primary: #1a8cd8;
+  --brand-secondary: #f0f0f0;
+}
+
+html {
+  font-family: "Poppins", serif;
+  scroll-behavior: smooth;
+}
